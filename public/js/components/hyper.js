@@ -92,16 +92,7 @@ function App(_ref) {
     (0, _hyperapp.h)(_RandomQuote2.default, { state: state, actions: actions }),
     (0, _hyperapp.h)(_Reviews2.default, { state: state, actions: actions }),
     (0, _hyperapp.h)(_ContactUS2.default, { state: state, actions: actions }),
-    (0, _hyperapp.h)(_Footer2.default, { state: state, actions: actions }),
-    (0, _hyperapp.h)(
-      'div',
-      null,
-      (0, _hyperapp.h)(
-        'p',
-        null,
-        'Jon Is the Greatest'
-      )
-    )
+    (0, _hyperapp.h)(_Footer2.default, { state: state, actions: actions })
   );
 }
 // <Header state={state} actions={actions}/>

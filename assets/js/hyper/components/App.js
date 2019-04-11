@@ -19,9 +19,7 @@ export default function App ({state, actions}) {
       <Reviews state={state} actions={actions} />
       <ContactUS state={state} actions={actions} />
       <Footer state={state} actions={actions} />
-      <div>
-        <p>Jon Is the Greatest</p>
-      </div>
+ 
     </div>
   )
 }
