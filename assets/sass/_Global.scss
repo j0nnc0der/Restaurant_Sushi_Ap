@@ -1,0 +1,48 @@
+body {
+    color: $black;
+    text-align: center;
+}
+
+h2 {
+    font-family: $displayFont;
+    font-size: 3rem;
+    text-transform: capitalize;
+    margin: 0.5rem 0 3rem;
+    text-align: center;
+}
+
+h5 {
+    color: $titleColor;
+    font-size: 0.7rem;
+    margin: 0.5rem 0 1rem;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    text-align: center;
+}
+
+p {
+    font-size: 0.8rem;
+    color: $paragraphColor;
+    line-height: 2rem;
+    margin: 0.5rem 0 3rem;
+    font-weight: 300;
+}
+
+a {
+    transition: all 0.5s ease-in-out;
+    &:hover {
+        color: $red;
+    }
+}
+
+strong {
+    font-weighT: 600;
+}
+
+.texturebg {
+    background: $greyBG;
+    // background-image: url('https://cdn.shopify.com/s/files/1/0533/2089/files/5-websites-to-download-free-subtle-textures-subtle.jpg?5724472906039650661');
+    background-position: center;
+    //  background-size: cover;
+    background-repeat: repeat;
+}

@@ -1,0 +1,37 @@
+        #OurStory {
+            padding: 100px 0;
+            .quote {
+                color: $paragraphColor;
+                margin: .5rem 0 3rem;
+                strong {
+                    color: $black;
+                    font-weight: 700;
+                }
+            }
+            .reserve-btn {
+                font-family: $displayFont;
+                display: inline-block;
+                padding: 20px 40px;
+                // min-width: 200px;
+                border: 1px solid $black;
+                text-align: center;
+                text-decoration: none;
+                color: $black;
+                text-transform: uppercase;
+                transition: all 0.3s ease-in-out;
+  
+                &:hover {
+                    background: $red;
+                    color: white;
+                }
+            }
+            .photo-img {
+                max-width: 418px;
+                height: 553px;
+                background: linear-gradient(135deg, rgba(000, 00, 00, .1)0, #000 100%);
+                background-image: linear-gradient(135deg, rgba(000, 00, 00, .1)0, #000 100%), url('https://s3.envato.com/files/174131122/DSC_6190111.jpg');
+                background-position: right;
+                background-size: cover;
+                margin: 550px 0 0 20px;
+            }
+        }

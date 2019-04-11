@@ -1,0 +1,45 @@
+Footer {
+  padding: 100px 0;
+  background: $footerBG;
+  width: 100%;
+  text-align: center;
+
+
+
+
+  nav{ 
+  display: inline-block;
+  margin: 0 auto 10px;
+
+  a {
+    text-align: center;
+    color: white;
+    display: inline-block;
+    padding: 10px 20px 10px 0;
+    text-decoration: none;
+  }
+}
+
+
+.socia-media {
+  margin: 0 0 50px;
+  padding: 0px;
+  li {
+    padding: 10px 20px 10px 0;
+display: inline-block;
+a {
+  color: white;
+  display: inline-block;
+  &:hover{
+color: $red;
+  }
+}
+  }
+}
+
+.copyright{
+  color: white;
+  }
+}
+
+
